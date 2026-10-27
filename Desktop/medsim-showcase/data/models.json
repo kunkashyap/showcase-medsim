@@ -1,0 +1,87 @@
+[
+  {
+    "id": "gall-bladder",
+    "name": "Gall Bladder",
+    "system": "Digestive System",
+    "shortDescription": "A small pouch under the liver that stores and concentrates bile for fat digestion.",
+    "description": "The gall bladder is a pear-shaped sac tucked beneath the liver. It stores bile made by the liver and concentrates it, then releases it into the small intestine after a fatty meal to help break down fats.",
+    "modelPath": "models/gall-bladder.glb",
+    "thumbnail": "thumbs/gall-bladder.jpg",
+    "scale": 1,
+    "initialRotation": [0, 0, 0],
+    "labels": [
+      { "text": "Fundus", "position": [0, 0, 0], "note": "The rounded bottom of the gall bladder." },
+      { "text": "Body", "position": [0, 0, 0], "note": "The main storage region for bile." },
+      { "text": "Neck", "position": [0, 0, 0], "note": "The narrowing that leads toward the cystic duct." },
+      { "text": "Cystic Duct", "position": [0, 0, 0], "note": "Carries bile to and from the common bile duct." }
+    ]
+  },
+  {
+    "id": "stomach",
+    "name": "Stomach",
+    "system": "Digestive System",
+    "shortDescription": "A muscular, J-shaped organ that churns food and begins protein digestion.",
+    "description": "The stomach is a muscular, J-shaped organ that receives food from the oesophagus. Its walls churn food while gastric acid and enzymes begin breaking down proteins, producing a semi-liquid mixture that passes on to the small intestine.",
+    "modelPath": "models/stomach.glb",
+    "thumbnail": "thumbs/stomach.jpg",
+    "scale": 1,
+    "initialRotation": [0, 0, 0],
+    "labels": [
+      { "text": "Cardia", "position": [0, 0, 0], "note": "Where the oesophagus joins the stomach." },
+      { "text": "Fundus", "position": [0, 0, 0], "note": "The dome-shaped upper part of the stomach." },
+      { "text": "Body", "position": [0, 0, 0], "note": "The main region where food is mixed and churned." },
+      { "text": "Pylorus", "position": [0, 0, 0], "note": "The outlet that leads to the small intestine." }
+    ]
+  },
+  {
+    "id": "human-heart",
+    "name": "Human Heart",
+    "system": "Circulatory System",
+    "shortDescription": "A four-chambered muscular pump that circulates blood through the whole body.",
+    "description": "The human heart is a muscular pump with four chambers: two atria and two ventricles. It pushes oxygen-poor blood to the lungs and oxygen-rich blood to the rest of the body, beating roughly 100,000 times a day.",
+    "modelPath": "models/human-heart.glb",
+    "thumbnail": "thumbs/human-heart.jpg",
+    "scale": 1,
+    "initialRotation": [0, 0, 0],
+    "labels": [
+      { "text": "Right Atrium", "position": [0, 0, 0], "note": "Receives oxygen-poor blood from the body." },
+      { "text": "Left Ventricle", "position": [0, 0, 0], "note": "The strongest chamber; pumps blood to the body." },
+      { "text": "Aorta", "position": [0, 0, 0], "note": "The main artery carrying oxygen-rich blood out of the heart." },
+      { "text": "Pulmonary Artery", "position": [0, 0, 0], "note": "Carries blood from the heart to the lungs." }
+    ]
+  },
+  {
+    "id": "digestive-system",
+    "name": "Digestive System",
+    "system": "Digestive System",
+    "shortDescription": "The full pathway that breaks down food and absorbs nutrients, from mouth to colon.",
+    "description": "The digestive system is the complete pathway and set of organs that turn food into nutrients the body can use. It runs from the mouth through the oesophagus, stomach and intestines, supported by the liver, gall bladder and pancreas.",
+    "modelPath": "models/digestive-system.glb",
+    "thumbnail": "thumbs/digestive-system.jpg",
+    "scale": 1,
+    "initialRotation": [0, 0, 0],
+    "labels": [
+      { "text": "Oesophagus", "position": [0, 0, 0], "note": "Moves food from the throat to the stomach." },
+      { "text": "Liver", "position": [0, 0, 0], "note": "Produces bile and processes absorbed nutrients." },
+      { "text": "Small Intestine", "position": [0, 0, 0], "note": "Where most nutrient absorption takes place." },
+      { "text": "Large Intestine", "position": [0, 0, 0], "note": "Absorbs water and forms waste." }
+    ]
+  },
+  {
+    "id": "human-brain",
+    "name": "Human Brain",
+    "system": "Nervous System",
+    "shortDescription": "The control centre of the body, handling thought, memory, movement and the senses.",
+    "description": "The human brain is the control centre of the nervous system. It contains tens of billions of neurons and coordinates thought, memory, emotion, movement and the senses, while also regulating vital functions such as breathing and heart rate.",
+    "modelPath": "models/human-brain.glb",
+    "thumbnail": "thumbs/human-brain.jpg",
+    "scale": 1,
+    "initialRotation": [0, 0, 0],
+    "labels": [
+      { "text": "Frontal Lobe", "position": [0, 0, 0], "note": "Planning, decision-making and voluntary movement." },
+      { "text": "Parietal Lobe", "position": [0, 0, 0], "note": "Processes touch and spatial awareness." },
+      { "text": "Cerebellum", "position": [0, 0, 0], "note": "Coordinates balance and fine movement." },
+      { "text": "Brain Stem", "position": [0, 0, 0], "note": "Controls breathing, heart rate and basic reflexes." }
+    ]
+  }
+]
